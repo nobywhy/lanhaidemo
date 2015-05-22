@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#F6F6F8"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/tab_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_menu_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:src="@drawable/ic_menu_index_on" />
+
+        <TextView
+            android:id="@+id/tv_menu_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:text="首页"
+            android:textColor="@color/menu_blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_loan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_menu_loan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_loan_off" />
+
+        <TextView
+            android:id="@+id/tv_menu_loan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:text="我要贷款"
+            android:textColor="@color/menu_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_calculator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_menu_calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_calculator_off" />
+
+        <TextView
+            android:id="@+id/tv_menu_calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:text="计算器"
+            android:textColor="@color/menu_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_my"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_menu_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_my_off" />
+
+        <TextView
+            android:id="@+id/tv_menu_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:text="我的海贷"
+            android:textColor="@color/menu_gray" />
+    </LinearLayout>
+
+</LinearLayout>
